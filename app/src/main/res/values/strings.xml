@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_principal">MainActivity_principal</string>
+    <string name="title_activity_main_terror">MainActivity_terror</string>
+    <string name="title_activity_main__sonidos">MainActivity_Sonidos</string>
+    <string name="title_activity_main_instrumentos">MainActivity_instrumentos</string>
+    <string name="title_activity_main_juegos">MainActivity_juegos</string>
+    <string name="title_activity_main_usuario">MainActivity_usuario</string>
+</resources>
