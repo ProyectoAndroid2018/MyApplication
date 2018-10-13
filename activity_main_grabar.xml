@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity_grabar">
+
+    <Button
+        android:id="@+id/button4"
+        style="@android:style/Widget.Material.Light.Button"
+        android:onClick="envio_grabar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="GRABAR"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColorLink="@color/colorAccent"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:textSize="25dp"
+        style="@android:style/Widget.Material.Light.Button"
+        android:onClick="envio_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="STOP"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="259dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="270dp"
+        android:layout_height="46dp"
+        android:text="Grabacion de Audio"
+        android:textAppearance="@android:style/TextAppearance.Widget.TabWidget"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="50dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:onClick="envio_escuchar_audio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escuchar"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="362dp" />
+
+</android.support.constraint.ConstraintLayout>
