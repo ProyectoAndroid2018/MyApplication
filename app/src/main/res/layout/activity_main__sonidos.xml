@@ -8,54 +8,53 @@
 
     <ImageButton
         android:id="@+id/imageButton13"
-        android:layout_width="84"
-        android:layout_height="87"
-        android:layout_marginLeft="56dp"
-        android:layout_marginStart="56dp"
+        android:layout_width="84dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginLeft="148dp"
         android:src="@mipmap/iconos_usuario"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="398dp" />
+        tools:layout_editor_absoluteY="369dp" />
 
     <ImageButton
         android:id="@+id/imageButton14"
-        android:layout_width="84"
-        android:layout_height="87"
-        android:layout_marginEnd="68dp"
-        android:layout_marginRight="68dp"
-        android:layout_marginTop="80dp"
+        android:layout_width="84dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginRight="56dp"
         android:src="@mipmap/boton_juegos"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/imageButton15"
-        android:layout_width="84"
-        android:layout_height="87"
-        android:layout_marginLeft="56dp"
-        android:layout_marginStart="56dp"
+        android:layout_width="84dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
         android:src="@mipmap/icono_instrumento"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.445" />
+        app:layout_constraintVertical_bias="0.464" />
 
     <ImageButton
         android:id="@+id/imageButton16"
-        android:layout_width="84"
-        android:layout_height="87"
+        android:layout_width="84dp"
+        android:layout_height="87dp"
         android:src="@mipmap/icono_risa"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.444"
-        tools:layout_editor_absoluteX="259dp" />
+        tools:layout_editor_absoluteX="244dp"
+        tools:layout_editor_absoluteY="223dp" />
 
     <ImageButton
         android:id="@+id/imageButton19"
-        android:layout_width="84"
-        android:layout_height="87"
+        android:layout_width="84dp"
+        android:layout_height="87dp"
+        android:onClick="19"
         android:src="@mipmap/boton"
-        tools:layout_editor_absoluteX="56dp"
-        tools:layout_editor_absoluteY="80dp" />
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="88dp" />
 
     <TextView
         android:id="@+id/textView7"
@@ -65,32 +64,32 @@
         android:textAllCaps="true"
         android:textSize="23sp"
         android:textStyle="bold|italic"
-        tools:layout_editor_absoluteX="56dp"
-        tools:layout_editor_absoluteY="167dp" />
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="175dp" />
 
     <TextView
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="31dp"
         android:text="JUEGOS"
         android:textAllCaps="true"
         android:textSize="23sp"
         android:textStyle="bold|italic"
-        tools:layout_editor_absoluteX="259dp"
-        tools:layout_editor_absoluteY="167dp" />
+        tools:layout_editor_absoluteX="244dp"
+        tools:layout_editor_absoluteY="175dp" />
 
     <TextView
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
         android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
         android:text="INSTRUMENTOS"
         android:textAllCaps="true"
         android:textSize="23sp"
         android:textStyle="bold|italic"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="341dp" />
+        tools:layout_editor_absoluteY="310dp" />
 
     <TextView
         android:id="@+id/textView10"
@@ -100,20 +99,20 @@
         android:textAllCaps="true"
         android:textSize="23sp"
         android:textStyle="bold|italic"
-        tools:layout_editor_absoluteX="271dp"
-        tools:layout_editor_absoluteY="341dp" />
+        tools:layout_editor_absoluteX="254dp"
+        tools:layout_editor_absoluteY="310dp" />
 
     <TextView
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="36dp"
-        android:layout_marginStart="36dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginLeft="128dp"
         android:text="MIS AUDIOS"
         android:textAllCaps="true"
         android:textSize="23sp"
         android:textStyle="bold|italic"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="485dp" />
+        tools:layout_editor_absoluteY="456dp" />
 
 </android.support.constraint.ConstraintLayout>
